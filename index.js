@@ -41,57 +41,6 @@ window.addEventListener("DOMContentLoaded", () => {
       }
       return true;
     }
-
-    // 2ND SOLUTION:
-    /*
-    winning conditions:
-      [0][1][2]
-      [3][4][5]
-      [6][7][8]
-      [0][3][6]
-      [1][4][7]
-      [2][5][8]
-      [0][4][8]
-      [2][4][6]
-    */
-
-    /*
-    if (board[0] == nowPlaying) {
-      if (board[1] == nowPlaying && board[2] == nowPlaying) {
-        console.log(`${nowPlaying} wins!`);
-        return true;
-      } else if (board[3] == nowPlaying && board[6] == nowPlaying) {
-        console.log(`${nowPlaying} wins!`);
-        return true;
-      } else if (board[4] == nowPlaying && board[8] == nowPlaying) {
-        console.log(`${nowPlaying} wins!`);
-        return true;
-      }
-    } else if (board[2] == nowPlaying) {
-      if (board[5] == nowPlaying && board[8] == nowPlaying) {
-        console.log(`${nowPlaying} wins!`);
-        return true;
-      }
-      if (board[4] == nowPlaying && board[6] == nowPlaying) {
-        console.log(`${nowPlaying} wins!`);
-        return true;
-      }
-    } else if (board[3] == nowPlaying) {
-      if (board[4] == nowPlaying && board[5] == nowPlaying) {
-        console.log(`${nowPlaying} wins!`);
-        return true;
-      }
-    } else if (board[1] == nowPlaying) {
-      if (board[4] == nowPlaying && board[7] == nowPlaying) {
-        console.log(`${nowPlaying} wins!`);
-        return true;
-      }
-    } else if (board[6] == nowPlaying) {
-      if (board[7] == nowPlaying && board[8] == nowPlaying) {
-        console.log(`${nowPlaying} wins!`);
-        return true;
-      }
-    }*/
   };
 
   function boxClicked(e) {
