@@ -44,6 +44,12 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  margin: 5px auto;
   font-size: 16px;
   cursor: pointer;
+}
+
+.button-container {
+  margin: 30px;
+  text-align: center;
 }
